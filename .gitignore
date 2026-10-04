@@ -30,6 +30,7 @@ Thumbs.db
 models/*.pkl
 models/*.joblib
 models/*.pickle
+models/*.npy
 # Datasets
 data/raw/*
 data/processed/pmpml_operational_data.csv

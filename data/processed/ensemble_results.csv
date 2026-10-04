@@ -1,0 +1,23 @@
+task,model,type,MAE,RMSE,R2,primary_metric,primary_score,Accuracy,F1,rank_in_task
+classification,Gradient Boosting,ensemble,,,,F1,0.614,0.6266,0.614,1
+classification,AdaBoost,ensemble,,,,F1,0.5896,0.5854,0.5896,2
+classification,Bagging (50 trees),ensemble,,,,F1,0.5706,0.5823,0.5706,3
+classification,Random Forest,ensemble,,,,F1,0.5524,0.5759,0.5524,4
+classification,[single] tree,single,,,,F1,0.5466,0.5443,0.5466,5
+classification,Soft voting (probability averaging),ensemble,,,,F1,0.538,0.5506,0.538,6
+classification,Stacking (logistic meta-model),ensemble,,,,F1,0.5354,0.5665,0.5354,7
+classification,Weighted soft voting (CV weights),ensemble,,,,F1,0.5327,0.5443,0.5327,8
+classification,Hard voting,ensemble,,,,F1,0.5206,0.5316,0.5206,9
+classification,[single] rbf,single,,,,F1,0.509,0.519,0.509,10
+classification,[single] knn,single,,,,F1,0.5052,0.5158,0.5052,11
+regression,Bagging (50 trees),ensemble,7.3188,9.9142,0.3037,R2,0.3037,,,1
+regression,Random Forest,ensemble,7.2732,9.9571,0.2976,R2,0.2976,,,2
+regression,Gradient Boosting,ensemble,7.9525,10.4609,0.2247,R2,0.2247,,,3
+regression,Voting (mean of 3 models),ensemble,8.4055,11.0089,0.1414,R2,0.1414,,,4
+regression,Averaging (equal weights),ensemble,8.4055,11.0089,0.1414,R2,0.1414,,,4
+regression,[single] tree,single,7.8957,11.0946,0.128,R2,0.128,,,6
+regression,[single] ridge,single,9.0857,11.3092,0.0939,R2,0.0939,,,7
+regression,Weighted averaging (CV-R2 weights),ensemble,8.9581,11.3279,0.0909,R2,0.0909,,,8
+regression,Stacking (Ridge meta-model),ensemble,9.0757,11.3632,0.0852,R2,0.0852,,,9
+regression,[single] svr,single,9.1786,12.3295,-0.077,R2,-0.077,,,10
+regression,AdaBoost,ensemble,11.3784,13.0054,-0.1983,R2,-0.1983,,,11

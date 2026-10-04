@@ -1,0 +1,55 @@
+model,actual,predicted,count
+KNN (k=7),Low,Low,80
+KNN (k=7),Low,Medium,16
+KNN (k=7),Low,High,36
+KNN (k=7),Medium,Low,23
+KNN (k=7),Medium,Medium,21
+KNN (k=7),Medium,High,52
+KNN (k=7),High,Low,7
+KNN (k=7),High,Medium,19
+KNN (k=7),High,High,62
+Linear SVM (C=100),Low,Low,88
+Linear SVM (C=100),Low,Medium,0
+Linear SVM (C=100),Low,High,44
+Linear SVM (C=100),Medium,Low,28
+Linear SVM (C=100),Medium,Medium,0
+Linear SVM (C=100),Medium,High,68
+Linear SVM (C=100),High,Low,14
+Linear SVM (C=100),High,Medium,0
+Linear SVM (C=100),High,High,74
+"Soft-margin SVM (linear, C=0.1)",Low,Low,86
+"Soft-margin SVM (linear, C=0.1)",Low,Medium,0
+"Soft-margin SVM (linear, C=0.1)",Low,High,46
+"Soft-margin SVM (linear, C=0.1)",Medium,Low,32
+"Soft-margin SVM (linear, C=0.1)",Medium,Medium,0
+"Soft-margin SVM (linear, C=0.1)",Medium,High,64
+"Soft-margin SVM (linear, C=0.1)",High,Low,12
+"Soft-margin SVM (linear, C=0.1)",High,Medium,0
+"Soft-margin SVM (linear, C=0.1)",High,High,76
+RBF SVM,Low,Low,79
+RBF SVM,Low,Medium,17
+RBF SVM,Low,High,36
+RBF SVM,Medium,Low,25
+RBF SVM,Medium,Medium,24
+RBF SVM,Medium,High,47
+RBF SVM,High,Low,11
+RBF SVM,High,Medium,16
+RBF SVM,High,High,61
+Polynomial SVM (deg 3),Low,Low,71
+Polynomial SVM (deg 3),Low,Medium,6
+Polynomial SVM (deg 3),Low,High,55
+Polynomial SVM (deg 3),Medium,Low,26
+Polynomial SVM (deg 3),Medium,Medium,2
+Polynomial SVM (deg 3),Medium,High,68
+Polynomial SVM (deg 3),High,Low,1
+Polynomial SVM (deg 3),High,Medium,3
+Polynomial SVM (deg 3),High,High,84
+Sigmoid SVM,Low,Low,73
+Sigmoid SVM,Low,Medium,9
+Sigmoid SVM,Low,High,50
+Sigmoid SVM,Medium,Low,54
+Sigmoid SVM,Medium,Medium,6
+Sigmoid SVM,Medium,High,36
+Sigmoid SVM,High,Low,41
+Sigmoid SVM,High,Medium,0
+Sigmoid SVM,High,High,47

@@ -1,0 +1,5 @@
+cluster,routes,mean_total_trips,mean_average_stops,mean_average_trip_duration,mean_unique_stops,mean_peak_share,mean_route_complexity,description,cluster_name
+2,123,78.61,46.55,67.81,86.23,0.45,1.85,high frequency,Cluster A
+3,84,46.93,21.83,27.66,37.6,0.48,1.73,"few stops per trip, short trips, small network",Cluster B
+1,52,19.44,81.82,128.99,147.25,0.49,1.8,"low frequency, many stops per trip, long trips, large network",Cluster C
+0,55,9.38,43.05,59.42,78.82,0.63,1.84,"low frequency, peak-heavy",Cluster D

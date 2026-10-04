@@ -1,0 +1,19 @@
+algorithm,k,silhouette,inertia,bic,noise_points
+K-Means (elbow sweep),2,0.2689,1319.172,,
+GMM (BIC sweep),2,0.2661,,3315.5756,
+K-Means (elbow sweep),3,0.2458,1077.6071,,
+GMM (BIC sweep),3,0.208,,2808.3681,
+K-Means (elbow sweep),4,0.2616,922.8285,,
+GMM (BIC sweep),4,0.1722,,2766.274,
+K-Means (elbow sweep),5,0.2614,815.7696,,
+GMM (BIC sweep),5,0.1431,,2602.1969,
+K-Means (elbow sweep),6,0.2777,718.1584,,
+GMM (BIC sweep),6,0.2341,,2724.6396,
+K-Means (elbow sweep),7,0.257,654.058,,
+GMM (BIC sweep),7,0.1345,,2409.3267,
+K-Means (elbow sweep),8,0.2392,592.1694,,
+GMM (BIC sweep),8,0.1251,,2473.3825,
+K-Means,4,0.2616,,,0.0
+Hierarchical (Ward),4,0.2329,,,0.0
+Gaussian Mixture,4,0.1722,,,0.0
+"DBSCAN (eps=0.98, min_samples=5)",2,0.2308,,,59.0

@@ -1,0 +1,9 @@
+model,MAE,MSE,RMSE,R2,CV_R2_mean,train_seconds,target
+Random Forest,7.2732,99.1434,9.9571,0.2976,0.1084,1.17,scheduled_trips_in_period
+Decision Tree,7.8957,123.0899,11.0946,0.128,-0.1983,0.07,scheduled_trips_in_period
+Ridge,9.0831,127.7118,11.301,0.0952,0.0327,0.08,scheduled_trips_in_period
+Lasso,9.0812,127.8551,11.3073,0.0942,0.0339,0.29,scheduled_trips_in_period
+Multiple Linear Regression,9.0987,128.4718,11.3345,0.0898,0.0276,0.08,scheduled_trips_in_period
+"Polynomial Regression (deg 2, Ridge)",9.2743,133.6946,11.5626,0.0528,0.0252,0.09,scheduled_trips_in_period
+Linear Regression (1 feature: mean_start_hour),9.5956,138.6454,11.7748,0.0178,-0.0265,0.06,scheduled_trips_in_period
+SVR (RBF),9.1786,152.0157,12.3295,-0.077,0.0107,0.33,scheduled_trips_in_period
